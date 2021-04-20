@@ -1,0 +1,25 @@
+.apartments-list {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.apartment {
+  border-radius: 4px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  overflow: hidden;
+}
+
+.apartment__text {
+  padding: 20px;
+}
+
+.apartment__delete-btn {
+  background: red;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 4px;
+  padding: 4px 15px;
+  cursor: pointer;
+}
